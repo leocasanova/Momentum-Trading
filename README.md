@@ -55,3 +55,5 @@ Expert advisor's optimized settings:
 
 
 ## Live trading on virtual private server
+
+Google Cloud virtual machine instance
