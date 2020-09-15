@@ -1,14 +1,14 @@
 # Momentum-Trading
 
-Momentum trading strategy using MACD (12, 26, 9)
+The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
+
+The MACD is a trend-following momentum indicator that shows the relationship between two moving averages of a security's price and is constructed as follows:
 
 > MACD Line: 12-period EMA - 26-period EMA
 
 > Signal Line: 9-period EMA of MACD line
 
 > MACD Histogram: MACD line - Signal line
-
-The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
 
 <img src="MACD histogram.png">
 
@@ -24,7 +24,7 @@ Let Yn be the last MACD value, Yn-1 the previous one, and Yn-2 the one before th
 
 In both case, the second comparison is for confirmation. As a matter of fact, we do not want to change our position based on a single comparison. The example below is an illustration of why:
 
-<img src="trend_confirmation.png" width="600">
+<img src="trend_confirmation.png" width="400">
 
 
 ## Initial results (before optimization)
