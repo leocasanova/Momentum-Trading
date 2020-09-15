@@ -2,13 +2,26 @@
 
 Momentum trading strategy using MACD (12, 26, 9)
 
-MACD Line: 12-period EMA - 26-period EMA
-Signal Line: 9-period EMA of MACD line
-MACD Histogram: MACD line - Signal line
+> MACD Line: 12-period EMA - 26-period EMA
+> Signal Line: 9-period EMA of MACD line
+> MACD Histogram: MACD line - Signal line
 
 The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
 
-    
+<img src="MACD histogram.png">
+
+As we can see in the chart above, a local extremum in the MACD histogram, whether positive or negative, translates into a market reversal.
+
+In brief, this EA looks for these extrema by comparing the last MACD value to the past ones.
+
+Let Yn be the last MACD value, Yn-1 the previous one, and Yn-2 the one before that, our conditions will be as follows:
+
+Bullish signal if Yn > Yn-1 & Yn-1 > Yn-2
+Bearish signal if Yn < Yn-1 & Yn-1 < Yn-2
+
+In both case, the second comparison is for confirmation. As a matter of fact, we do not want to change our position on a single comparison. The example below is an illustration of why:
+
+
 ## Initial results (before optimization)
 
 Testing period: January 2020 - September 2020 (8 months)
