@@ -22,12 +22,14 @@ Expert advisor's default settings:
     
 <img src="test_settings_1.png">
 
+<img src="test_report_1.png" width="800">
+
 
 ## Backtesting
 
 Backtesting period: January 2018 - January 2020 (24 months)
 
-<img src="optimization_parameters.png">
+<img src="optimization_parameters.png" width="500">
 
 <img src="optimization_settings.png">
 
@@ -49,7 +51,7 @@ Expert advisor's optimized settings:
     MACD_SlowPeriod   = 26
     MACD_SignalPeriod = 9
 
-<img src="test_report_2.png">
+<img src="test_report_2.png" width="800">
 
 
 ## Live trading on virtual private server
