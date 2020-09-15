@@ -18,12 +18,13 @@ In brief, this EA looks for these extrema by comparing the last MACD value to th
 
 Let Yn be the last MACD value, Yn-1 the previous one, and Yn-2 the one before that, our conditions will be as follows:
 
-Bullish signal if Yn > Yn-1 & Yn-1 > Yn-2
-Bearish signal if Yn < Yn-1 & Yn-1 < Yn-2
+> Bullish signal if Yn > Yn-1 & Yn-1 > Yn-2
 
-In both case, the second comparison is for confirmation. As a matter of fact, we do not want to change our position on a single comparison. The example below is an illustration of why:
+> Bearish signal if Yn < Yn-1 & Yn-1 < Yn-2
 
-<img src="trend_confirmation.png">
+In both case, the second comparison is for confirmation. As a matter of fact, we do not want to change our position based on a single comparison. The example below is an illustration of why:
+
+<img src="trend_confirmation.png" width="600">
 
 
 ## Initial results (before optimization)
