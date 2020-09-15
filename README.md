@@ -2,6 +2,12 @@
 
 Momentum trading strategy using MACD (12, 26, 9)
 
+MACD Line: 12-period EMA - 26-period EMA
+Signal Line: 9-period EMA of MACD line
+MACD Histogram: MACD line - Signal line
+
+The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
+
     
 ## Initial results (before optimization)
 
