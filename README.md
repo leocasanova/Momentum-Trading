@@ -17,14 +17,20 @@ Expert advisor's default settings:
     MACD_SlowPeriod   = 26
     MACD_SignalPeriod = 9
     
+<img src="test_settings_1.png">
+    
 ## Initial results
 
-
+<img src="test_report_1.png">
 
 ## Backtesting
 
+<img src="optimization_settings.png">
+
+<img src="optimization_parameters.png">
 
 ## Forward testing
 
+<img src="test_report_2.png">
 
 ## Live trading on VPS
