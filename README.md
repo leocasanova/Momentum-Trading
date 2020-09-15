@@ -1,14 +1,14 @@
 # Momentum-Trading
 
-The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
-
 The MACD is a trend-following momentum indicator that shows the relationship between two moving averages of a security's price and is constructed as follows:
 
-> MACD Line: 12-period EMA - 26-period EMA
+> MACD line: 12-period EMA - 26-period EMA
 
-> Signal Line: 9-period EMA of MACD line
+> Signal line: 9-period EMA of MACD line
 
-> MACD Histogram: MACD line - Signal line
+> MACD histogram: MACD line - Signal line
+
+The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
 
 <img src="MACD histogram.png">
 
