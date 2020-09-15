@@ -8,6 +8,7 @@ The MACD is a trend-following momentum indicator that shows the relationship bet
 
 > MACD histogram: MACD line - Signal line
 
+
 The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
 
 <img src="MACD histogram.png">
@@ -15,6 +16,7 @@ The objective of this expert advisor is to take advantage of the market's moment
 As we can see in the chart above, a local extremum in the MACD histogram, whether positive or negative, translates into a market reversal.
 
 In brief, this EA looks for these extrema by comparing the last MACD value to the past ones.
+
 
 Let Yn be the last MACD value, Yn-1 the previous one, and Yn-2 the one before that, our conditions will be as follows:
 
@@ -24,7 +26,7 @@ Let Yn be the last MACD value, Yn-1 the previous one, and Yn-2 the one before th
 
 In both case, the second comparison is for confirmation. As a matter of fact, we do not want to change our position based on a single comparison. The example below is an illustration of why:
 
-<img src="trend_confirmation.png" width="400">
+<img src="trend_confirmation.png" width="250">
 
 
 ## Initial results (before optimization)
