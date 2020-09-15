@@ -3,7 +3,9 @@
 Momentum trading strategy using MACD (12, 26, 9)
 
 > MACD Line: 12-period EMA - 26-period EMA
+
 > Signal Line: 9-period EMA of MACD line
+
 > MACD Histogram: MACD line - Signal line
 
 The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
@@ -20,6 +22,8 @@ Bullish signal if Yn > Yn-1 & Yn-1 > Yn-2
 Bearish signal if Yn < Yn-1 & Yn-1 < Yn-2
 
 In both case, the second comparison is for confirmation. As a matter of fact, we do not want to change our position on a single comparison. The example below is an illustration of why:
+
+<img src="trend_confirmation.png">
 
 
 ## Initial results (before optimization)
