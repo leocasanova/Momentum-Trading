@@ -9,7 +9,7 @@ The MACD is a trend-following momentum indicator that shows the relationship bet
 > MACD histogram: MACD line - Signal line
 
 
-The objective of this expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
+The objective of this MT4 expert advisor is to take advantage of the market's momentum reflected in the MACD histogram.
 
 <img src="MACD histogram.png">
 
