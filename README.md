@@ -1,5 +1,7 @@
 # Momentum-Trading
 
+<img src="trading_terminal.png">
+
 The MACD is a trend-following momentum indicator that shows the relationship between two moving averages of a security's price and is constructed as follows:
 
 > MACD line: 12-period EMA - 26-period EMA
