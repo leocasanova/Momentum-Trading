@@ -1,6 +1,6 @@
 # Momentum-Trading
 
-<img src="trading_terminal.png">
+<img src="trading_terminal.png" width="700">
 
 The MACD is a trend-following momentum indicator that shows the relationship between two moving averages of a security's price and is constructed as follows:
 
